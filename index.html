@@ -1,90 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-01</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div>Web Studio</div>
-        <div>Студия</div>
-        <div>Портфолио</div>
-        <div>Контакты</div>
-        <div>info@devstudio.com</div>
-        <div>+38 096 111 11 11</div>
-        <div>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <div>Заказать услугу</div>
-        </div>
+      <nav>
+        <h1>
+          <a href="#">Web Studio</a>
+        </h1>
+        <ul class="main-menu"></ul>
+        <li class="main-menu-item">
+          <a href="#" class="main-menu-link">Студия</a>
+        </li>
+        <li class="main-menu-item">
+          <a href="#" class="main-menu-link">Портфолио</a>
+        </li>
+        <li class="main-menu-item">
+          <a href="#" class="main-menu-link">Контакты</a>
+        </li>
+        <li class="main-menu-item">
+          <a href="#" class="main-menu-link">info@devstudio.com</a>
+        </li>
+        <li class="main-menu-item">
+          <a href="#" class="main-menu-link">+38 096 111 11 11</a>
+        </li>
+      </nav>
+      <h2>Эффективные решения для вашего бизнеса</h2>
+      <div>
+        <a href="#" class="main-menu-order">Заказать услугу</a>
+      </div>
     </header>
-    <section>
-        <div>
-            <div>
-                <h3>Внимание к деталям</h3>
-            </div>
-            <div>Идейные соображения, а также начало повседневной работы по формированию позиции.</div>
-        </div>
-        <div>
-            <h3>Пунктуальность</h3>
-            <div>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</div>
-        </div>
-        <div>
-            <h3>Планирование</h3>
-            <div>Равным образом консультация с широким активом в значительной степени обуславливает.</div>
-        </div>
-        <div>
-            <h3>Современные технологии</h3>
-            <div>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</div>
-        </div>
-    </section>
-    <section>
-        <h2>Чем мы занимаемся</h2>
-        <div>Десктопные приложения</div>
-        <div>Мобильные приложения</div>
-        <div>Дизайнерские решения</div>
-    </section>
-    <section>
-        <h2>Наша команда</h2>
-        <div>
-            <div>Николай Кучеренко</div>
-            <div>Product Designer</div>
-        </div>
-        <div>
-            <div>Ольга Иванова</div>
-            <div>Frontend Developer</div>
-        </div>
-        <div>
-            <div>Андрей Шевченко</div>
-            <div>Marketing</div>
-        </div>
-        <div>
-            <div>Иван Николаев</div>
-            <div>UI Designer</div>
-        </div>
-    </section>
-    <section>
-        <h2>Постоянные клиенты</h2>
-    </section>
-    <footer>
-        <div>
-            <div>Web Studio</div>
-            <div>г. Киев, пр-т Леси Украинки, 26</div>
-            <div>info@devstudio.com</div>
-            <div>+38 096 111 11 11</div>
-        </div>
-        <div>
-            <div>присоединяйтесь</div>
-        </div>
-        <div>
-            <div>Подпишитесь на рассылку</div>
-            <div>Подписаться</div>
-        </div>
+    <main class="main-content">
+      <section class="features">
+        <ul class="features-list">
+          <p>Внимание к деталям</p>
+          <li class="features-list-item">
+            Идейные соображения, а также начало повседневной работы по
+            формированию позиции.
+          </li>
+          <p>Пунктуальность</p>
+          <li class="features-list-item">
+            Задача организации, в особенности же рамки и место обучения кадров
+            влечет за собой.
+          </li>
+          <p>Планирование</p>
+          <li class="features-list-item">
+            Равным образом консультация с широким активом в значительной степени
+            обуславливает.
+          </li>
+          <p>Современные технологии</p>
+          <li class="features-list-item">
+            Значимость этих проблем настолько очевидна, что реализация плановых
+            заданий.
+          </li>
+        </ul>
+      </section>
 
+      <section class="direction">
+        <h2 class="direction-title">Чем мы занимаемся</h2>
+        <ul class="direction-list">
+          <li class="direction-list-item">
+            <img src="#" alt="photo" width="640" height="426" />
+            <p>Десктопные приложения</p>
+          </li>
+          <li class="direction-list-item">
+            <img src="#" alt="photo" width="640" height="426" />
+            <p>Мобильные приложения</p>
+          </li>
+          <li class="direction-list-item">
+            <img src="#" alt="photo" width="640" height="426" />
+            <p>Дизайнерские решения</p>
+          </li>
+        </ul>
+      </section>
+      <section class="team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="time-list">
+          <li class="team-list-item">
+            <img src="#" alt="photo" width="640" height="426" />
+            <h3>Николай Кучеренко</h3>
+            <p>Product Designer</p>
+          </li>
+          <li class="team-list-item">
+            <img src="#" alt="photo" width="640" height="426" />
+            <h3>Ольга Иванова</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li class="team-list-item">
+            <img src="#" alt="photo" width="640" height="426" />
+            <h3>Андрей Шевченко</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="team-list-item">
+            <img src="#" alt="photo" width="640" height="426" />
+            <h3>Иван Николаев</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section class="customer">
+        <h2 class="customer-title">Постоянные клиенты</h2>
+        <ul class="customer-list">
+          <li class="customer-list-item">
+            <img src="#" alt="logo" width="640" height="426" />
+          </li>
+          <li class="customer-list-item">
+            <img src="#" alt="logo" width="640" height="426" />
+          </li>
+          <li class="customer-list-item">
+            <img src="#" alt="logo" width="640" height="426" />
+          </li>
+          <li class="customer-list-item">
+            <img src="#" alt="logo" width="640" height="426" />
+          </li>
+          <li class="customer-list-item">
+            <img src="#" alt="logo" width="640" height="426" />
+          </li>
+          <li class="customer-list-item">
+            <img src="#" alt="logo" width="640" height="426" />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <p class="main-footer-addressbar">
+        <a href="#">Web Studio</a>
+      </p>
+
+      <p></p>
+      <ul class="main-footer-addressbar">
+        <li class="main-footer-addressbar-address">
+          г. Киев, пр-т Леси Украинки, 26
+        </li>
+        <li class="main-footer-addressbar-emaill">info@devstudio.com</li>
+        <li class="main-footer-addressbar-phone">+38 096 111 11 11</li>
+      </ul>
+      <ul class="main-footer-social-links">
+        <p>присоединяйтесь</p>
+        <li class="main-footer-social-links-item">
+          <a href="#" class="main-footer-social-list-link"></a>
+        </li>
+        <li class="main-footer-social-links-item">
+          <a href="#" class="main-footer-social-list-link"></a>
+        </li>
+        <li class="main-footer-social-links-item">
+          <a href="#" class="main-footer-social-list-link"></a>
+        </li>
+        <li class="main-footer-social-links-item">
+          <a href="#" class="main-footer-social-list-link"></a>
+        </li>
+      </ul>
+      <div>
+        <div>Подпишитесь на рассылку</div>
+        <div>Подписаться</div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
